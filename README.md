@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cfloorf/tags). For example,
+
+```javascript
 import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@v0.0.0-esm/index.mjs';
 ```
 
@@ -109,7 +114,7 @@ im = imag( v );
 
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
-import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@v0.0.0-esm/index.mjs';
+import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@esm/index.mjs';
 
 var rand = uniform( -50.0, 50.0 );
 var z;
