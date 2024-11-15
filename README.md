@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Round a single-precision complex floating-point number toward negative infinity.
+> Round each component of a single-precision complex floating-point number toward negative infinity.
 
 <section class="installation">
 
@@ -65,7 +65,7 @@ var cfloorf = require( '@stdlib/math-base-special-cfloorf' );
 
 #### cfloorf( z )
 
-Rounds a single-precision complex floating-point number toward negative infinity.
+Rounds each component of a single-precision complex floating-point number toward negative infinity.
 
 ```javascript
 var Complex64 = require( '@stdlib/complex-float32-ctor' );
@@ -165,7 +165,7 @@ for ( i = 0; i < 100; i++ ) {
 
 #### stdlib_base_cfloorf( z )
 
-Rounds a single-precision complex floating-point number toward negative infinity.
+Rounds each component of a single-precision complex floating-point number toward negative infinity.
 
 ```c
 #include "stdlib/complex/float32/ctor.h"
