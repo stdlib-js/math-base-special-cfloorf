@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,25 +16,35 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_MATH_BASE_SPECIAL_CFLOORF_H
-#define STDLIB_MATH_BASE_SPECIAL_CFLOORF_H
+// TypeScript Version: 4.1
 
-#include "stdlib/complex/float32/ctor.h"
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-/*
-* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
-*/
-#ifdef __cplusplus
-extern "C" {
-#endif
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
 * Rounds each component of a single-precision complex floating-point number toward negative infinity.
+*
+* @param z - input value
+* @returns result
+*
+* @example
+* var Complex64 = require( '@stdlib/complex-float32-ctor' );
+* var real = require( '@stdlib/complex-float32-real' );
+* var imag = require( '@stdlib/complex-float32-imag' );
+*
+* var v = cfloorf( new Complex64( 5.5, 3.3 ) );
+* // returns <Complex64>
+*
+* var re = real( v );
+* // returns 5.0
+*
+* var im = imag( v );
+* // returns 3.0
 */
-stdlib_complex64_t stdlib_base_cfloorf( const stdlib_complex64_t z );
+declare function cfloorf( z: Complex64 ): Complex64;
 
-#ifdef __cplusplus
-}
-#endif
 
-#endif // !STDLIB_MATH_BASE_SPECIAL_CFLOORF_H
+// EXPORTS //
+
+export = cfloorf;
