@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-03)
+## Unreleased (2025-12-05)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b7aa4fa`](https://github.com/stdlib-js/stdlib/commit/b7aa4fa7588ce8bdb575bf923d769769c1a1987a) - **docs:** improve doctests for complex number instances in `math/base/special/cfloorf` [(#8792)](https://github.com/stdlib-js/stdlib/pull/8792) _(by Divyanshu)_
 -   [`902fff9`](https://github.com/stdlib-js/stdlib/commit/902fff9a8deb6bab8a69ed301644bcb4c4e485a3) - **chore:** add structured package data for `math/base/special/cfloorf` [(#8687)](https://github.com/stdlib-js/stdlib/pull/8687) _(by Payal Goswami, Athan Reines)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`4817867`](https://github.com/stdlib-js/stdlib/commit/4817867dcbddffe1ead3f532e01fce352bd77808) - **chore:** move stdlib benchmarks into native sub-directories _(by Philipp Burckhardt)_
@@ -38,10 +39,11 @@
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Divyanshu
 -   Gunj Joshi
 -   Karan Anand
 -   Payal Goswami
