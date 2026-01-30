@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@deno/mod.js';
+import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@v0.1.0-deno/mod.js';
 ```
 
 #### cfloorf( z )
@@ -78,7 +78,7 @@ v = cfloorf( new Complex64( NaN, NaN ) );
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
-import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@deno/mod.js';
+import cfloorf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cfloorf@v0.1.0-deno/mod.js';
 
 var rand = uniform( -50.0, 50.0 );
 var z;
