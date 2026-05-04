@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,16 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var Complex64 = require( '@stdlib/complex-float32-ctor' );
-var uniform = require( '@stdlib/random-base-uniform' ).factory;
-var cfloorf = require( './../lib' );
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var rand = uniform( -50.0, 50.0 );
-var z;
-var i;
-for ( i = 0; i < 100; i++ ) {
-	z = new Complex64( rand(), rand() );
-	console.log( 'cfloorf(%s) = %s', z, cfloorf( z ) );
-}
+import { Complex64 } from '@stdlib/types/complex';
+
+/**
+* Rounds each component of a single-precision complex floating-point number toward negative infinity.
+*
+* @param z - input value
+* @returns result
+*
+* @example
+* var Complex64 = require( '@stdlib/complex-float32-ctor' );
+*
+* var v = cfloorf( new Complex64( 5.5, 3.3 ) );
+* // returns <Complex64>[ 5.0, 3.0 ]
+*/
+declare function cfloorf( z: Complex64 ): Complex64;
+
+
+// EXPORTS //
+
+export = cfloorf;
